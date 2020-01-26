@@ -1,0 +1,131 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-26T05:35:19.419Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1183944,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Transactions table behavior",
+        "description": "",
+        "id": "account-activity-behavior;transactions-table-behavior",
+        "after": [
+          {
+            "result": {
+              "duration": 148694657,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6265079747,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDef.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1557705379,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user logs in using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginStepDef.user_logs_in_using_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2956198641,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "the user navigates to Account Activity",
+            "match": {
+              "location": "AccountActivityStepDef.the_user_navigates_to_Account_Activity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99892354,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the user should see tabelerow",
+            "match": {
+              "location": "AccountActivityStepDef.the_user_should_see_tabelerow(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date"
+                ]
+              },
+              {
+                "cells": [
+                  "Description"
+                ]
+              },
+              {
+                "cells": [
+                  "Deposit"
+                ]
+              },
+              {
+                "cells": [
+                  "Withdrawal"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Account activity behavior",
+    "description": "",
+    "id": "account-activity-behavior",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "tags": []
+  }
+]
