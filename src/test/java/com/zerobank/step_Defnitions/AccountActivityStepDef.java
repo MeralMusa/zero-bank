@@ -47,7 +47,6 @@ public class AccountActivityStepDef {
 
         System.out.println(actualOption+"=actualoption");
         System.out.println(expected+"=expectedoption");
-        BrowserUtils.waitFor(2);
 
     }
 

@@ -1,5 +1,8 @@
-
-
+#Account Activity
+#Account Activity page should have the title Zero –Account activity.
+#In the Account drop down default option should be Savings.
+#Account drop down should have the following options: Savings, Checking, Loan, Credit Card, Brokerage.
+#Transactions table should have column names Date, Description, Deposit, Withdrawal.
 Feature: Account activity behavior
 
   Scenario: Navigate to account activity
@@ -30,7 +33,6 @@ Feature: Account activity behavior
       |Loan|
       |Credit Card|
       |Brokerage|
-  @wip
 
   Scenario: Transactions table behavior
     Given the user is on the login page
@@ -41,5 +43,3 @@ Feature: Account activity behavior
       |Description|
       |Deposit|
       |Withdrawal|
-
-

@@ -2,48 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93b0203-a8e6-4089-b31e-bf7fe0b01c9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/AccountActivityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/runners/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/AccountActivityStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/LoginStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/embedded5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/default-html-reports/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/zerobank-automation.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/AccountActivityPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/pages/LoginPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/runners/CukesRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/AccountActivityStepDef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/LoginStepDef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/BrowserUtils$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/BrowserUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/ConfigurationReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/utilities/Driver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/AccountSummeryStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/AccountActivityStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/AccountActivityStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/LoginStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/LoginStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountActivity.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountActivity.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,17 +102,34 @@
       <option name="presentableId" value="Default" />
       <updated>1579959722958</updated>
     </task>
+    <task id="LOCAL-00001" summary="Account Activity Table and dropdown">
+      <created>1580017285302</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580017285302</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Account Activity Table and dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Account Activity Table and dropdown" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Project_Structure" timestamp="1579997761232">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1579997761232" />
-    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1579962032171">
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580080460851">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579962032171" />
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580080460851" />
+    <state x="100" y="79" width="1480" height="870" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580083244717">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="79" width="1480" height="870" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580083244717" />
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580083211006" />
     <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1579998608945">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -153,42 +138,54 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="586" y="343" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580016883310" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1580017012978">
+    <state x="438" y="139" key="CommitChangelistDialog2" timestamp="1580017284727">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580016804749" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580017012978" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1580017012976">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580016804745" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580017012976" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1580017012975">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580016804744" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580017012975" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1580017012977">
-      <screen x="0" y="23" width="1680" height="1027" />
-    </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580016804747" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580017012977" />
-    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1580001008834">
+    <state x="438" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1580017284727" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1580084562513">
       <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580084562513" />
+    <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657390" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1580084562512">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580084562512" />
+    <state width="1638" height="363" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657386" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1580084562511">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580084562511" />
+    <state width="1638" height="363" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657385" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1580084562513">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580084562513" />
+    <state width="1638" height="363" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657387" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1580040657396">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580001008834" />
-    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1580001008831">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657396" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center" timestamp="1580040657393">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580001008831" />
-    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1580001008830">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657393" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left" timestamp="1580040657392">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580001008830" />
-    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1580001008833">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="363" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657392" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right" timestamp="1580040657395">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580001008833" />
+    <state width="1638" height="363" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657395" />
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2" timestamp="1580017288266">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1580017288266" />
     <state x="597" y="453" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1579969852527">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

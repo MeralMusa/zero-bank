@@ -31,6 +31,7 @@ public class LoginStepDef {
 
         LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
+        BrowserUtils.waitFor(3);
 
     }
 
@@ -39,6 +40,7 @@ public class LoginStepDef {
         String actualUrl = Driver.get().getCurrentUrl();
         String expectedurl="http://zero.webappsecurity.com/bank/account-summary.html";
         Assert.assertEquals(expectedurl,actualUrl);
+        BrowserUtils.waitFor(3);
 
     }
 

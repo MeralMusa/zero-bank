@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountActivity.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountSummary.feature");
 formatter.feature({
-  "name": "Account activity behavior",
+  "name": "Account summery behavior",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Transactions table behavior",
+  "name": "Credit Accounts",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -38,43 +38,28 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user navigates to Account Activity",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AccountActivityStepDef.the_user_navigates_to_Account_Activity()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should see tabelerow",
+  "name": "the user should see the following credit account columns",
   "rows": [
     {
       "cells": [
-        "Date"
+        "Account"
       ]
     },
     {
       "cells": [
-        "Description"
+        "Credit Card"
       ]
     },
     {
       "cells": [
-        "Deposit"
-      ]
-    },
-    {
-      "cells": [
-        "Withdrawal"
+        "Balance"
       ]
     }
   ],
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AccountActivityStepDef.the_user_should_see_tabelerow(String\u003e)"
+  "location": "AccountSummeryStepDef.the_user_should_see_the_following_credit_account_columns(String\u003e)"
 });
 formatter.result({
   "status": "passed"

@@ -1,13 +1,13 @@
 [
   {
-    "line": 3,
+    "line": 5,
     "elements": [
       {
-        "start_timestamp": "2020-01-26T05:35:19.419Z",
+        "start_timestamp": "2020-01-27T00:22:44.209Z",
         "before": [
           {
             "result": {
-              "duration": 1183944,
+              "duration": 2011272283,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 35,
-        "name": "Transactions table behavior",
+        "line": 24,
+        "name": "Credit Accounts",
         "description": "",
-        "id": "account-activity-behavior;transactions-table-behavior",
+        "id": "account-summery-behavior;credit-accounts",
         "after": [
           {
             "result": {
-              "duration": 148694657,
+              "duration": 2100944055,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6265079747,
+              "duration": 5515187428,
               "status": "passed"
             },
-            "line": 36,
+            "line": 25,
             "name": "the user is on the login page",
             "match": {
               "location": "LoginStepDef.the_user_is_on_the_login_page()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 1557705379,
+              "duration": 4337724389,
               "status": "passed"
             },
-            "line": 37,
+            "line": 26,
             "name": "user logs in using \"username\" and \"password\"",
             "match": {
               "arguments": [
@@ -69,45 +69,28 @@
           },
           {
             "result": {
-              "duration": 2956198641,
+              "duration": 73748502,
               "status": "passed"
             },
-            "line": 38,
-            "name": "the user navigates to Account Activity",
+            "line": 27,
+            "name": "the user should see the following credit account columns",
             "match": {
-              "location": "AccountActivityStepDef.the_user_navigates_to_Account_Activity()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 99892354,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "the user should see tabelerow",
-            "match": {
-              "location": "AccountActivityStepDef.the_user_should_see_tabelerow(String\u003e)"
+              "location": "AccountSummeryStepDef.the_user_should_see_the_following_credit_account_columns(String\u003e)"
             },
             "rows": [
               {
                 "cells": [
-                  "Date"
+                  "Account"
                 ]
               },
               {
                 "cells": [
-                  "Description"
+                  "Credit Card"
                 ]
               },
               {
                 "cells": [
-                  "Deposit"
-                ]
-              },
-              {
-                "cells": [
-                  "Withdrawal"
+                  "Balance"
                 ]
               }
             ],
@@ -121,11 +104,11 @@
         ]
       }
     ],
-    "name": "Account activity behavior",
+    "name": "Account summery behavior",
     "description": "",
-    "id": "account-activity-behavior",
+    "id": "account-summery-behavior",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/AccountActivity.feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
     "tags": []
   }
 ]

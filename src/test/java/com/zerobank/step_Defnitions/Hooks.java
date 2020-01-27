@@ -1,6 +1,7 @@
 package com.zerobank.step_Defnitions;
 
 
+import com.zerobank.utilities.BrowserUtils;
 import com.zerobank.utilities.Driver;
 import io.cucumber.core.api.Scenario;
 import io.cucumber.java.After;
@@ -14,18 +15,24 @@ public class Hooks {
     public void setUpDatabase(){
 
         System.out.println("\tCONNECTION DATABASE");
+        BrowserUtils.waitFor(2);
+
     }
 
     @Before
     public void setUp(){
 
         System.out.println("\tthis is coming from BEFORE");
+        BrowserUtils.waitFor(2);
+
     }
 
     @After("@db")
     public void tearDownDatabase(){
 
         System.out.println("\tCLOSING DATABASE CONNECTION");
+        BrowserUtils.waitFor(2);
+
     }
 
     @After
@@ -38,6 +45,8 @@ public class Hooks {
         }
 
         Driver.closeDriver();
+        BrowserUtils.waitFor(2);
+
     }
 
 
