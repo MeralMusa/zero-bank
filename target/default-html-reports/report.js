@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountSummary.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/PayBill.feature");
 formatter.feature({
-  "name": "Account summery behavior",
+  "name": "Pay Bills page behavior",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Credit Accounts",
+  "name": "When user completes a successful Pay operation, The payment was successfully submitted. should be displayed.",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -38,28 +38,31 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should see the following credit account columns",
-  "rows": [
-    {
-      "cells": [
-        "Account"
-      ]
-    },
-    {
-      "cells": [
-        "Credit Card"
-      ]
-    },
-    {
-      "cells": [
-        "Balance"
-      ]
-    }
-  ],
+  "name": "the user navigates to Pay Bills page",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "PayBillStepDef.the_user_navigates_to_Pay_Bills_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user enter amount \"100\" and description \"2020-01-10\" and the other options",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "PayBillStepDef.the_user_enter_amount_and_description_and_the_other_options(String,String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "\"The payment was successfully submitted.\" should be displayed.",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AccountSummeryStepDef.the_user_should_see_the_following_credit_account_columns(String\u003e)"
+  "location": "PayBillStepDef.should_be_displayed(String)"
 });
 formatter.result({
   "status": "passed"

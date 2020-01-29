@@ -19,7 +19,6 @@
       |Credit Accounts|
       |Loan Accounts|
 
-    @wip
 
   Scenario: Credit Accounts
     Given the user is on the login page
