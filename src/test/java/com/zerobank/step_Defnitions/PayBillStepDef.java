@@ -30,10 +30,8 @@ public class PayBillStepDef {
 
         //open the dropdown
         dropdownElement.click();
-        BrowserUtils.waitFor(2);
 
         List<WebElement> listofOptions = Driver.get().findElements(By.xpath("/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/form/div[1]/div/article/fieldset/div[1]/div/select/option"));
-        BrowserUtils.waitFor(2);
 
         //size of the list
         System.out.println("Number of links "+listofOptions.size());
@@ -52,13 +50,12 @@ public class PayBillStepDef {
         //index of the list and click
         listofOptions.get(2).click();
 
-        BrowserUtils.waitFor(2);
+
 
         WebElement dropdownElement2 = Driver.get().findElement(By.name("account"));
 
         //open the dropdown
         dropdownElement2.click();
-        BrowserUtils.waitFor(2);
 
         List<WebElement> listofOptions2 = Driver.get().findElements(By.xpath("/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/form/div[1]/div/article/fieldset/div[2]/div/select/option"));
         //size of the list
@@ -78,7 +75,6 @@ public class PayBillStepDef {
 
         //index of the list and click
         listofOptions2.get(3).click();
-        BrowserUtils.waitFor(2);
 
         WebElement amountInputbox =Driver.get().findElement(By.xpath("/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/form/div[1]/div/article/fieldset/div[3]/div/input"));
 
@@ -95,7 +91,6 @@ public class PayBillStepDef {
 
 
         Driver.get().findElement(By.id("pay_saved_payees")).click();
-        BrowserUtils.waitFor(2);
 
 
 

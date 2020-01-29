@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c93b0203-a8e6-4089-b31e-bf7fe0b01c9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/PayBillStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PayBill.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/AccountActivityStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/AccountActivityStepDef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/LoginStepDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/zerobank/step_Defnitions/LoginStepDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/PayBillStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/PayBillStepDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +109,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580084653969</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pay bill page titel and confirmation meassage">
+      <created>1580262709606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580262709606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Account Activity Table and dropdown" />
     <MESSAGE value="Account Summary Account types and credit accounts table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Account Summary Account types and credit accounts table" />
+    <MESSAGE value="Pay bill page titel and confirmation meassage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pay bill page titel and confirmation meassage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="190" key="#Project_Structure" timestamp="1579997761232">
@@ -147,30 +147,30 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="586" y="343" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580016883310" />
-    <state x="481" y="174" key="CommitChangelistDialog2" timestamp="1580084653469">
+    <state x="481" y="174" key="CommitChangelistDialog2" timestamp="1580262708881">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="481" y="174" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580084653469" />
+    <state x="481" y="174" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580262708881" />
     <state x="438" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1580017284727" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1580262496531">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1580262807253">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580262496531" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807253" />
     <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657390" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1580262496528">
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1580262807251">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580262496528" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807251" />
     <state width="1638" height="363" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657386" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1580262496527">
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1580262807250">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580262496527" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807250" />
     <state width="1638" height="363" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657385" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1580262496530">
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1580262807252">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580262496530" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807252" />
     <state width="1638" height="363" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657387" />
     <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1580040657396">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -192,10 +192,10 @@
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580001008833" />
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657395" />
-    <state x="440" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580084656354">
+    <state x="440" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580262711710">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="259" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580084656354" />
+    <state x="440" y="259" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580262711710" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1580017288266" />
     <state x="597" y="453" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1579969852527">
       <screen x="0" y="0" width="1680" height="1050" />
