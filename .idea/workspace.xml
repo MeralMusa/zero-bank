@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c93b0203-a8e6-4089-b31e-bf7fe0b01c9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/PayBillStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zerobank/step_Defnitions/PayBillStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580262709606</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pay bill page titel and confirmation meassage">
+      <created>1580262840638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580262840638</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,30 +154,30 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="586" y="343" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1580016883310" />
-    <state x="481" y="174" key="CommitChangelistDialog2" timestamp="1580262708881">
+    <state x="481" y="174" key="CommitChangelistDialog2" timestamp="1580262840193">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="481" y="174" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580262708881" />
+    <state x="481" y="174" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580262840193" />
     <state x="438" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1580017284727" />
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1580262807253">
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom" timestamp="1580263854674">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807253" />
+    <state width="1638" height="294" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580263854674" />
     <state width="1638" height="363" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657390" />
-    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1580262807251">
+    <state width="1638" height="294" key="GridCell.Tab.0.center" timestamp="1580263854672">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807251" />
+    <state width="1638" height="294" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580263854672" />
     <state width="1638" height="363" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657386" />
-    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1580262807250">
+    <state width="1638" height="294" key="GridCell.Tab.0.left" timestamp="1580263854671">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807250" />
+    <state width="1638" height="294" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580263854671" />
     <state width="1638" height="363" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657385" />
-    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1580262807252">
+    <state width="1638" height="294" key="GridCell.Tab.0.right" timestamp="1580263854673">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580262807252" />
+    <state width="1638" height="294" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580263854673" />
     <state width="1638" height="363" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657387" />
     <state width="1638" height="363" key="GridCell.Tab.1.bottom" timestamp="1580040657396">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -192,10 +199,10 @@
     </state>
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580001008833" />
     <state width="1638" height="363" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1580040657395" />
-    <state x="440" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580262711710">
+    <state x="440" y="259" key="Vcs.Push.Dialog.v2" timestamp="1580262842483">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="259" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580262711710" />
+    <state x="440" y="259" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580262842483" />
     <state x="440" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1580017288266" />
     <state x="597" y="453" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1579969852527">
       <screen x="0" y="0" width="1680" height="1050" />
