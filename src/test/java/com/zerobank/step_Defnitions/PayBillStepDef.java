@@ -5,6 +5,7 @@ import com.zerobank.utilities.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -166,13 +167,23 @@ public class PayBillStepDef {
 
         Driver.get().findElement(By.id("pay_saved_payees")).click();
 
+        BrowserUtils.waitFor(2);
 
     }
 
     @Then("message should displayed {string}")
-    public void message_should_displayed(String string) {
+    public void message_should_displayed(String expectedMessage) throws InterruptedException {
 
 
+        String actualMessage = Driver.get().findElement(By.xpath("/html/body/div[1]/div[2]/div/div[2]/div/div/div[2]/div[1]/form/div[1]/div/article/fieldset/div[3]/div/input")).getAttribute("validationMessage");
+        Thread.sleep(2000);
+
+        System.out.println(expectedMessage+" = expectedMessage");
+        System.out.println(actualMessage+" = actualMessage");
+
+        Assert.assertEquals(expectedMessage,actualMessage);
+        System.out.println(expectedMessage+" = expectedMessage");
+        System.out.println(actualMessage+" = actualMessage");
 
 
     }
@@ -240,7 +251,7 @@ public class PayBillStepDef {
 
         Driver.get().findElement(By.id("pay_saved_payees")).click();
 
-
+        BrowserUtils.waitFor(2);
 
     }
 }

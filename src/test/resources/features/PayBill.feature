@@ -11,7 +11,6 @@
       When user logs in using "username" and "password"
       And the user navigates to Pay Bills page
       Then the title should contains "Zero - Pay Bills"
-    @wip
 
     Scenario: When user completes a successful Pay operation, The payment was successfully submitted. should be displayed.
       Given the user is on the login page
@@ -23,7 +22,7 @@
 
 
 
-
+    @wip
 
     Scenario: Payment without entering amount
 
@@ -31,7 +30,7 @@
         When user logs in using "username" and "password"
         When the user navigates to Pay Bills page
         When user entering all options without amount
-        Then message should displayed "Please fill out this field message!"
+      Then message should displayed "Füllen Sie dieses Feld aus."
 
 
     Scenario: Payment without entering date
@@ -39,6 +38,6 @@
       When user logs in using "username" and "password"
       When the user navigates to Pay Bills page
       When user entering all options without date
-      Then message should displayed "Please fill out this field message!"
+      Then message should displayed "Füllen Sie dieses Feld aus."
 
 

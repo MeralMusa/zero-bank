@@ -3,11 +3,11 @@
     "line": 7,
     "elements": [
       {
-        "start_timestamp": "2020-01-29T02:10:56.271Z",
+        "start_timestamp": "2020-01-31T04:13:37.476Z",
         "before": [
           {
             "result": {
-              "duration": 2008974485,
+              "duration": 2011378768,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 16,
-        "name": "When user completes a successful Pay operation, The payment was successfully submitted. should be displayed.",
+        "line": 27,
+        "name": "Payment without entering amount",
         "description": "",
-        "id": "pay-bills-page-behavior;when-user-completes-a-successful-pay-operation--the-payment-was-successfully-submitted.-should-be-displayed.",
+        "id": "pay-bills-page-behavior;payment-without-entering-amount",
         "after": [
           {
             "result": {
-              "duration": 2157331014,
+              "duration": 2141348077,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 6211341935,
+              "duration": 5342432377,
               "status": "passed"
             },
-            "line": 17,
+            "line": 29,
             "name": "the user is on the login page",
             "match": {
               "location": "LoginStepDef.the_user_is_on_the_login_page()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 4405108568,
+              "duration": 4516010768,
               "status": "passed"
             },
-            "line": 18,
+            "line": 30,
             "name": "user logs in using \"username\" and \"password\"",
             "match": {
               "arguments": [
@@ -69,53 +69,43 @@
           },
           {
             "result": {
-              "duration": 2909679335,
+              "duration": 2946396750,
               "status": "passed"
             },
-            "line": 19,
+            "line": 31,
             "name": "the user navigates to Pay Bills page",
             "match": {
               "location": "PayBillStepDef.the_user_navigates_to_Pay_Bills_page()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 1904705747,
+              "duration": 3931853666,
               "status": "passed"
             },
-            "line": 20,
-            "name": "the user enter amount \"100\" and description \"2020-01-10\" and the other options",
+            "line": 32,
+            "name": "user entering all options without amount",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"100\"",
-                  "offset": 22
-                },
-                {
-                  "val": "\"2020-01-10\"",
-                  "offset": 44
-                }
-              ],
-              "location": "PayBillStepDef.the_user_enter_amount_and_description_and_the_other_options(String,String)"
+              "location": "PayBillStepDef.user_entering_all_options_without_amount()"
             },
-            "keyword": "And "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 50138393,
+              "duration": 2072068250,
               "status": "passed"
             },
-            "line": 21,
-            "name": "\"The payment was successfully submitted.\" should be displayed.",
+            "line": 33,
+            "name": "message should displayed \"Füllen Sie dieses Feld aus.\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"The payment was successfully submitted.\"",
-                  "offset": 0
+                  "val": "\"Füllen Sie dieses Feld aus.\"",
+                  "offset": 25
                 }
               ],
-              "location": "PayBillStepDef.should_be_displayed(String)"
+              "location": "PayBillStepDef.message_should_displayed(String)"
             },
             "keyword": "Then "
           }
